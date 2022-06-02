@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Tabela Zebrada</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+
+<script>
+window.onload=window.onload=function(){
+    var colorir=document.getElementsByTagName("tr");
+
+for (var i = 0; i < colorir.length; i += 2) {
+    colorir[i].className='zebrar';
+}
+}
+</script>
+
+</head>
+
+<body>
+    <table class="hp">
+        <thead>
+            <th>NOME</th>
+            <th>MATRÍCULA</th>
+            <th>PET</th>
+            <th>NOME DO PET</th>
+        </thead>
+
+        <tbody>
+            <tr>
+            <td>Harry Potter</td>
+            <td>4567654398</td>
+            <td>Coruja</td>
+            <td>Edwiges</td>
+            </tr>
+
+            <tr>
+            <td>Hermione Granger</td>
+            <td>1235430983</td>
+            <td>Gato</td>
+            <td>Bichento</td>
+            </tr>
+
+            <tr>
+            <td>Rony Weasley</td>
+            <td>6578769087</td>
+            <td>Rato</td>
+            <td>Perebas/ Pedro Pettigrew</td>
+            </tr>
+
+            <tr>
+            <td>Neville</td>
+            <td>8765643212</td>
+            <td>Sapo</td>
+            <td>Trevo</td>
+            </tr>
+
+            
+        </tbody>
+    </table>
+</body>
+</html>
